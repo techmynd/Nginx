@@ -1,0 +1,14 @@
+location ^~ /.well-known/acme-challenge/ {
+  allow all;
+  auth_basic off;
+
+  default_type "text/plain";
+
+  root /var/www/certbot;
+
+  try_files $uri =404;
+}
+
+location = /.well-known/acme-challenge/ {
+  return 404;
+}

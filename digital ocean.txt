@@ -1,0 +1,25 @@
+https://www.digitalocean.com/docs/droplets/how-to/connect-with-ssh/putty/
+https://www.digitalocean.com/community/tutorials/how-to-create-ssh-keys-with-putty-to-connect-to-a-vps
+
+
+https://www.digitalocean.com/
+
+Create account
+Add ssh keys
+
+In server, add directory .ssh
+
+> mkdir .ssh
+
+in there profile authorized keys
+
+> nano authorized_keys 
+
+super user with shell access
+> sudo -s
+followed by password
+
+
+
+
+

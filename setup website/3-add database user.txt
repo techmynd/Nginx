@@ -1,0 +1,16 @@
+> shh root@ip
+
+> mysql -u root -p
+give password for mysql that you earlier setup
+
+mysql> CREATE DATABSE 'dbname';
+mysql> CREATE USER "name"@"localhost" IDENTIFIED BY "StroNgPasswOrdHere__";
+mysql> GRANT ALL ON "dbname".* TO "name"@"localhost";
+
+mysql> FLUSH PRIVILEGES;
+
+
+
+
+
+

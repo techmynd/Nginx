@@ -1,0 +1,24 @@
+create ssh folder in skeleton directory
+=======================================
+
+> ssh root@ip
+
+> cd /etc/skel
+
+> /etc/skel# mkdir .ssh
+
+> /etc/skel# chmod 0700 .ssh
+
+> /etc/skel# cp /root/.ssh/authorized_keys .ssh/
+
+> cd .ssh
+
+
+you can create new user and if shh keys are in skeleton directory, then new user will access server easily without password by using ssh key
+
+
+
+
+
+
+

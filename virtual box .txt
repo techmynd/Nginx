@@ -1,0 +1,18 @@
+https://www.virtualbox.org/
+
+Download and install virtualbox
+Download Ubuntu Server
+
+Open virtual box program
+Create virtual machine (Choose Linux and Ubuntu from type and version after naming your machine)
+Choose same RAM and hard that you selected at digital ocean droplet
+Go to settings > storage and choose ISO (for Ubuntu Server that you downloaded)
+click Start virtual machine icon
+let the installation run and choose 'open ssh server' when it asks for software selection
+
+> ssh machineUserName@192.168.1.121
+
+ssh yourMachineUserName@yourMachineIP
+
+
+

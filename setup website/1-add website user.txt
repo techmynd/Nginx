@@ -1,0 +1,23 @@
+one user per website
+
+> ssh root@ip
+
+setup example.com website 
+
+> useradd -d /var/www/example.com -g users -m -s /bin/bash sitename_example
+
+> chgrp www-data /var/www/example.com
+
+> chmod 750 /var/www/example.com
+
+
+login to this website user and create keygen
+> su - sitename_example
+> ssh-keygen
+this will give you private and public key for ths user
+
+
+
+
+
+

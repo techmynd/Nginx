@@ -1,0 +1,32 @@
+add nginx
+==========
+
+ssh root@ip
+
+> add-apt-repository ppa:nginx/stable
+
+> apt update
+
+> apt install nginx
+
+
+
+nginx congic changes / security
+===============================
+
+> nano /etc/nginx/nginx.conf
+
+turn
+# server_tokens off;
+to
+server_tokens off;
+
+this will turn off the nginx server tokens
+
+exit-save
+Ctrl+X
+Y
+
+
+
+

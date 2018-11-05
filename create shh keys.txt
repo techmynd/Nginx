@@ -1,0 +1,15 @@
+in cmd type
+
+> ssh-keygen
+
+name it and it will be in .ssh directory
+
+id_rsa is your private key
+id_rsa.pub is your public key
+
+share your public key but do not share private key
+Where ever any site asks your ssh key, use public key
+
+
+
+

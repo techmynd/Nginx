@@ -1,0 +1,13 @@
+https://regex101.com
+
+https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+https://en.wikipedia.org/wiki/Percent-encoding
+
+ssl
+https://certbot.eff.org/
+https://trackssl.com/
+
+
+certbot can enable auto ssl from lets encrypt on server
+
+

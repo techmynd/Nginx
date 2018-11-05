@@ -1,0 +1,40 @@
+Package Manager Commands
+
+
+apt update
+Download the most up-to-date data about what packages are available.
+
+apt upgrade
+Upgrade all installed packages to the latest versions.
+
+apt upgrade <package>
+Only upgrade specified package to the latest version.
+
+apt autoremove
+Remove automatically installed packages that are no longer required.
+
+apt clean
+Removes all the package archives that were required to install them
+
+apt search <search string>
+Find packages that match the search string
+
+apt install <package>
+Install a new package
+
+apt remove <package>
+Remove an installed package
+
+
+
+
+
+install network time protocol (this will keep clock in sync)
+> apt install ntp
+
+set time zone
+> timedatectl set-timezone UTC
+
+check date and timezone
+> date
+

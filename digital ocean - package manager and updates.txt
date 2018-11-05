@@ -1,0 +1,43 @@
+> ssh root@ip
+
+message
+27 packages can be updated
+3 updates are security updates
+
+> apt update
+
+> apt list --upgradable
+
+> apt upgrade
+
+> apt autoremove
+
+> apt clean
+
+==========
+
+> apt search searchterm
+
+==========
+
+> apt install appname
+
+=========
+
+install network time protocol (this will keep clock in sync)
+
+> apt install ntp
+
+set time zone
+> timedatectl set-timezone UTC
+
+check date and timezone
+> date
+
+
+
+
+
+
+
+

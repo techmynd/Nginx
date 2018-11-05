@@ -1,0 +1,36 @@
+Rewrites Used
+-------------
+
+location /old/ {
+  rewrite ^/old/(.+)$ $scheme://$host/new/$1 permanent;
+}
+
+# /newsletter/2018-01-05
+# /newsletter/2018/01/05
+
+location /newsletter {
+  rewrite ^/newsletter/([0-9]+)-([0-9]+)-([0-9]+)$ $scheme://$host/newsletter/$1/$2/$3 redirect;
+}
+
+rewrite ^/(about|contact|privacy-policy|cookie-policy)$ $scheme://$host/$1/ permanent;
+
+rewrite ^/[Ss]itemap$ $scheme://$host/sitemap.xml permanent;
+
+rewrite ^/Cookie%20Policy/$ $scheme://$host/cookie-policy/ permanent;
+
+#/save-money/at-home
+#/save-money/at-home/selling-for-others
+
+rewrite ^/(save-money/[A-Za-z-]+)$ $scheme://$host/categories/$1/ permanent;
+rewrite ^/save-money/[A-Za-z-]+/([A-Za-z-]+)/?$ $scheme://$host/$1/ permanent;
+
+
+HTTP Codes
+----------
+
+301 Permanent Redirect
+302 Found
+
+Full list is available here:
+https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+

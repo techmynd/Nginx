@@ -1,0 +1,9 @@
+go to php directory
+
+and make some changes there 
+
+
+
+https://haydenjames.io/php-fpm-tuning-using-pm-static-max-performance/
+http://php.net/manual/en/install.fpm.configuration.php
+
